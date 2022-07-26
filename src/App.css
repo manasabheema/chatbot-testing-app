@@ -59,9 +59,10 @@
 
 .cards-container {
   border: 1px solid lightgray;
-  border-radius: 10px;
+  border-radius: 5px;
   width: inherit;
   height: 87vh;
+  box-shadow: 5px 5px 10px lightgrey;
 }
 
 .card {
