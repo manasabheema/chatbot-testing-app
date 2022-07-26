@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex: 1;
+  height: 10vh;
+  width: 100%;
+  padding: 0.5em;
+  background-color: rgb(28, 77, 79);
+  color: azure;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.logo-name {
+  padding: 1em;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items div {
+  padding: 1em;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+.left-container {
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  width: 46vw;
+}
+
+.left-nav {
+  width: 25vw;
+}
+
+.left-nav-items {
+  list-style-type: none;
+}
+
+.left-nav-items li {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.left-nav-items li:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.left-nav-items li:active {
+  background-color: gray;
+}
+
+.cards-container {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: inherit;
+  height: 87vh;
+}
+
+.card {
+  padding: 0.7em;
+}
+.card p {
+  margin-left: 0.5em;
+}
